@@ -17,10 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearch.Business.Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearch.Business", "ElasticSearch.Business\ElasticSearch.Business.csproj", "{1A918909-F619-43D8-A683-8AC88393C35D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5E58AEF0-039A-44A5-847D-5ADC174CB328}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{E2298C10-ECE3-477A-9324-8D3FB01F36A6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,12 +54,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{1F0CAAA0-F591-4E6B-BD30-9E3FCF531BAD} = {5E58AEF0-039A-44A5-847D-5ADC174CB328}
-		{E06107B5-86DE-47BC-ABAD-A56620A6A86F} = {5E58AEF0-039A-44A5-847D-5ADC174CB328}
-		{4860F72C-2233-4651-ABB8-96F55E0CA06D} = {5E58AEF0-039A-44A5-847D-5ADC174CB328}
-		{DB74A623-DB2A-46C0-91B0-8319E9442067} = {E2298C10-ECE3-477A-9324-8D3FB01F36A6}
-		{1A918909-F619-43D8-A683-8AC88393C35D} = {E2298C10-ECE3-477A-9324-8D3FB01F36A6}
 	EndGlobalSection
 EndGlobal

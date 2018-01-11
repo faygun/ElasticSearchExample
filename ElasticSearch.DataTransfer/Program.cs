@@ -32,7 +32,7 @@ namespace ElasticSearch.DataTransfer
             var searchList = new ElasticSearchBuilder(indexName, context)
                 .SetSize(10)
                 .SetFrom(0)
-                .AddTermQuery("ömer", "name")
+                .AddTermQuery("omer", "name")
                 //.AddRangeFilter(190, 300, "price")
                 .Build()
                 .Execute<Product>();
